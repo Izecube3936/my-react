@@ -1,9 +1,15 @@
 import React from 'react'
 
+
 function Jsx() {
   return (
-    <div> <p> Jsx is in use now! </p> </div>
+    <div> <p> This is my first component </p> </div>
   )
 }
 
+
+
+
 export default Jsx
+
+
