@@ -3,6 +3,9 @@ import './App.css';
 import Jsx3 from './komponenter/Jsx3';
 import Jsx from './komponenter/Jsx';
 import Jsx2 from './komponenter/Jsx2';
+import Example from './komponenter/Example';
+
+
 
 
 function App() {
@@ -16,9 +19,12 @@ function App() {
         <Jsx2 />
         <Jsx3 />
         
+        
       </header>
     </div>
   );
 }
 
-export default App;
+<Example />
+
+
