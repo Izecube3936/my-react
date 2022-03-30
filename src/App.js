@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Jsx3 from './komponenter/Jsx3';
+import Jsx from './komponenter/Jsx';
+import Jsx2 from './komponenter/Jsx2';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <p> My name is Fredrik Dahlbom </p>
+        <em>I´m learning React, which is fun </em>
+        <Jsx /> 
+        <Jsx2 />
+        <Jsx3 />
+        
       </header>
     </div>
   );
