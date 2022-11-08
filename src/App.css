@@ -1,3 +1,18 @@
+/*
+.odd {
+  background-color: beige
+}
+        //Detta har Sibar infogar i CSS-filen, det nedan ska bort
+.done,
+.done p,
+.done li {
+  text-decoration: line-through;
+}
+
+*/
+
+
+
 .App {
   text-align: center;
 }

@@ -1,9 +1,9 @@
 
 import './App.css';
-
 import Jsx from './komponenter/Jsx';
-import Jsx2 from './komponenter/Jsx2';
-import Jsx3 from './komponenter/Jsx3';
+import TodoApp from './komponenter/TodoApp';
+import TodoApp2 from './komponenter/TodoApp2';
+import TodoApp21 from './komponenter/TodoApp21';
 
 
 
@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <p> My name is Fredrik Dahlbom </p>
+        <p> My name is Fredrik Dahlbom. </p>
         <Jsx /> 
-        <Jsx2 />
-        <Jsx3 />
+        <TodoApp />
+        <TodoApp21 />
       
         
         
@@ -26,6 +26,6 @@ function App() {
   );
 }
 
-
+export default App;
 
 
